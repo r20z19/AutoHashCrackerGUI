@@ -30,14 +30,14 @@
 <img src="./photo/3.png" width="100%" alt="历史提取">
 
 ## 项目结构
-├── JtR/ # John the Ripper 哈希提取工具集
-├── hashcat/ # Hashcat 爆破引擎
-├── 7z2hashcat/ # 7z 哈希提取工具
-├── tmp/ # 临时哈希文件（自动生成）
+├── JtR/ # John the Ripper 哈希提取工具集  
+├── hashcat/ # Hashcat 爆破引擎  
+├── 7z2hashcat/ # 7z 哈希提取工具  
+├── tmp/ # 临时哈希文件（自动生成）  
 └── main.py # 主程序
 
 ## 使用方法
-不需要安装任何库
+不需要安装任何库  
 python main.py  
 
 ## 适用场景
