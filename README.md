@@ -27,7 +27,7 @@
 ?a ?a?a ?a?a?a ?a?a?a?a ?a?a?a?a?a ?a?a?a?a?a?a 适用于密码长度较短、仅记得长度范围、个人文件密码遗忘等场景。
 ### 历史密码自动匹配
 工具会自动读取 hashcat potfile 历史记录，已破解过的哈希直接显示密码，无需重复爆破。
-<img src="./photo/3.png" width="100%" alt="历史提取">
+
 
 ## 项目结构
 ├── JtR/ # John the Ripper 哈希提取工具集  
@@ -38,7 +38,7 @@
 
 ## 使用方法
 不需要安装任何库  
-python main.py  
+python main0.2.py  
 
 ## 适用场景
 - 个人文档、压缩包、Office 文件密码遗忘找回
