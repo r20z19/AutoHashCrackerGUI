@@ -13,6 +13,7 @@
 - 基于 Hashcat 引擎，支持 GPU 加速
 - 支持安全停止、实时日志输出
 - 自动提取哈希，无需手动转换
+<img src="./photo/3.png" width="100%" alt="破解示例">
 
 ## 支持格式
 - Office 系列：doc、docx
@@ -21,8 +22,7 @@
 - WiFi 握手包：cap、hccapx
 - 磁盘加密：BitLocker、DMG、LUKS、TrueCrypt / VeraCrypt
 - 办公套件：iWork、LibreOffice
-
-<img src="./photo/2.png" width="100%" alt="破解示例">
+<img src="./photo/4.png" width="100%" alt="破解示例">
 
 ## 破解模式
 ### 掩码暴力破解（默认）
@@ -31,6 +31,7 @@
 ### 历史密码自动匹配
 工具会自动读取 hashcat potfile 历史记录，已破解过的哈希直接显示密码，无需重复爆破。
 
+<img src="./photo/2.png" width="100%" alt="破解示例">
 
 ## 项目结构
 ├── JtR/ # John the Ripper 哈希提取工具集  
